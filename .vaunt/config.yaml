@@ -1,38 +1,31 @@
 version: 0.0.1
 achievements:
   - achievement:
-      name: Shooting Star
-      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png
-      description: Awarded for staring our repository, make a wish!
+      name: Starring!!
+      icon: https://raw.githubusercontent.com/simonmazzaroth/Vaunt_demo/main/.vaunt/_1bdeca15-e24d-4654-835f-2acdfaa893d1.png
+      description: Awarded for starring our repository, make a wish!
       triggers:
         - trigger:
             actor: author
             action: star
             condition: starred = true
   - achievement:
-      name: Every Bit Counts
-      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/every_bit_counts.png
-      description: No commit is too small!
+      name: Snake Charmer 
+      icon: https://raw.githubusercontent.com/elewis787/boa/develop/.vaunt/boa.png
+      Description: Charming snakes is no easy feat! 
       triggers:
         - trigger:
             actor: author
-            action: commit
-            condition: count() >= 1
-  - achievement:
-      name: Pull Request Hero
-      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/pull_request_hero.png
-      description: You're a PR hero, rock on!
-      triggers:
-        - trigger:
-            actor: author
-            action: pull_request
-            condition: merged = true
-  - achievement:
-      name: Closer
-      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/closer.png
-      description: Only closers get coffee!
-      triggers:
+            action: star
+            condition: starred = true
+            operator: "&"
         - trigger:
             actor: author
             action: issue
-            condition: closed = true
+            condition: labels in ['enhancement']
+            operator: "|"
+        - trigger: 
+            actor: reviewers
+            action: pull_request
+            condition: count() > 1
+            operator: '|'
