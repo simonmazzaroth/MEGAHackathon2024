@@ -1,0 +1,2 @@
+- name: Vaunt Cards Action
+  uses: VauntDev/vaunt-cards-action@v1.0.0
