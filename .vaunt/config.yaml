@@ -2,7 +2,7 @@ version: 0.0.1
 achievements:
   - achievement:
       name: Starring!!
-      icon: https://raw.githubusercontent.com/simonmazzaroth/Vaunt_demo/main/.vaunt/1st%20place.png
+      icon: https://raw.githubusercontent.com/simonmazzaroth/Example/main/.vaunt/1st%20place.png
       description: Awarded for starring our repository, make a wish!
       triggers:
         - trigger:
