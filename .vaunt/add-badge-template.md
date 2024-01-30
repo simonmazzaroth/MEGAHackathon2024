@@ -1,3 +1,6 @@
+Please replace {{company_or_event_name}} with your company name or event name or etc... and remove this line. 
+
+
 # How to Add {{company_or_event_name}} Badges to your GitHub Profile
 
 Your [GitHub profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/about-your-profile) is more than just a collection of repositories; it is your professional identity in the coding world.
