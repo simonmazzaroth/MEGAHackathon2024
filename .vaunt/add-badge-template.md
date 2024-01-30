@@ -1,4 +1,4 @@
-Please replace {{company_or_event_name}} with your company name or event name or etc... and remove this line. 
+# Please replace {{company_or_event_name}} with your repo name or hackathon name, etc... and remove this line. 
 
 
 # How to Add {{company_or_event_name}} Badges to your GitHub Profile
