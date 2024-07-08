@@ -1,18 +1,18 @@
 version: 0.0.1
 achievements:
   - achievement:
-      name: Starring!!
-      icon: https://raw.githubusercontent.com/simonmazzaroth/Example/main/.vaunt/1st%20place.png
-      description: Awarded for starring our repository, make a wish!
+      name: GitHub Prize
+      icon: https://raw.githubusercontent.com/mchang2468/MEGAHackathon2024Badges/main/GitHub_Prize.png
+      description: This prize is for submitting GitHub code as part of your project submission.
       triggers:
         - trigger:
             actor: author
             action: star
             condition: starred = true
   - achievement:
-      name: Snake Charmer 
-      icon: https://raw.githubusercontent.com/elewis787/boa/develop/.vaunt/boa.png
-      Description: Charming snakes is no easy feat! 
+      name: Gold_Prize.png	 
+      icon: https://raw.githubusercontent.com/mchang2468/MEGAHackathon2024Badges/main/Gold_Prize.png
+      Description: This prize is for the most impressive, innovative, and impactful project.
       triggers:
         - trigger:
             actor: author
